@@ -1,4 +1,4 @@
-# 02 - 035: .partition() function
+# 02 - 035: .partition() function = Variable Deconstruction
 
 # When you want a subsection of the data gets passed, .partition() breaks wathever you pass in.
 # It ONLY works with THREE elements.
