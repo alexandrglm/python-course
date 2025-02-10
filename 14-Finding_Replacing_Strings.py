@@ -1,4 +1,4 @@
-# 02 031: .replace() function / Finding and replacing String values
+# 02 032: .replace() function / Finding and replacing String values
 
 sentence = 'The quick brown fox jumped over the lazy dog'
 
