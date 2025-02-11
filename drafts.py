@@ -24,3 +24,6 @@
 	
 # picking_a_title(title, main_actor)
 #                 )
+
+a = 4 % 2
+print(a)
