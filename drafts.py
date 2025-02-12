@@ -28,5 +28,11 @@
 # a = 4 % 2
 # print(a)
 from decimal import Decimal
+import math
+
+base = 2
+exponent = -3
+
+print(math.pow(base, exponent))
 
 
