@@ -45,7 +45,7 @@ print(math.sqrt(product_cost)) # 9.486305919587455
 
 
 
-# ^X Exponents - math.pow(base, exponent)
+# PowerRoots - math.pow(base, exponent)
 print(math.pow(5, 2)) # 25 - 5²
 print(math.pow(2, 3)) # 8  - 2³
 print(math.pow(2, 6)) # 64 - 2⁶
