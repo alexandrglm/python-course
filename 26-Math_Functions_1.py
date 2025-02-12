@@ -57,5 +57,46 @@ print(5 ** 2)         # ** returns INTEGERS
 print(math.pow(5, 2)) # math.pow returns FLOATS  ... Perfect for large scientific/accurate calculations 
 
 
+# Extended functions:
+
+## Exponentials     math.exp(exponential)
+print(math.exp(2)) # 7.38905609893065
+
+## Simple Logarithm
+print(math.log(10)) # 2.302585092994046
+
+## Base10 Logarithm
+print(math.log10(100)) # 2.0 (integer)
+print(math.log10(1000)) # 3
+
+# Constants
+
+## Pi
+print(math.pi) # 3.141592653589793
+
+## Tau
+print(math.tau) # 6.283185307179586
+
+## Euler
+print(math.e) # 2.718281828459045
+
+## Infinite
+print(math.inf) # inf
+
+
+# Trigonometrics
+
+## Sine
+print(math.sin(math.pi / 2)) # 1
+
+## Cosine
+print(math.cos(0)) # 1
+
+## Tangent
+print(math.pi / 4) # 0.7853981633974483
+
+
+
+
 
 
