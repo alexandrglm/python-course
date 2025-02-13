@@ -1,4 +1,4 @@
-# 02-056: Advanced techniques for implementing RANGES and SLICES inlists.
+# 02-056: Advanced techniques for implementing RANGES and SLICES in lists.
 
 tags = [
     'python',
@@ -10,17 +10,17 @@ tags = [
 ]
 print('Original List:  ' + str(tags))  
 
-# Ranges [ startDelimiter : endDelimiter]
+# Ranges [ start : stop ]
 tag_range = tags[1:-1]
 print(tag_range)        # ['development', 'tutorials', 'code', 'programming']
 
 
-# Slicing [ inclusive : exclusive : the range ]
+# Slicing [start : stop : step]
 """
 What slice ranges do:
-- Inclusive: The starting index of the slice.
-- Exclusive: The ending index of the slice.
-- Interval: It determines how many items to skip between each selected item.
+- START: The starting index of the slice.
+- STOP: The ending index of the slice (remember the zero-base minus one)
+- STEP: The interval; it determines how many items to skip between each selected item.
 """
 
 tag_range = tags[:-1:2] # From 0 to the Second-Last, take EVERY TWO items
