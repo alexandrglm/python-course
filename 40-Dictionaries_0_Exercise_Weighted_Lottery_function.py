@@ -1,4 +1,4 @@
-# 02-062: Python Exercise: Building a Weighted Lottery function
+# 02-061: Python Exercise: Building a Weighted Lottery function
 """
 import numpy as np
 
