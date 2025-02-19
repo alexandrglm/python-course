@@ -24,8 +24,6 @@ post = (
     'Python Basics', 
     'Intro-Guide to Python',
     'PostContent'
-
-
 )
 
 # Reassingment Operator and id() method
