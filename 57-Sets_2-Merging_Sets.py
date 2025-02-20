@@ -1,4 +1,4 @@
-# 03-079: Merging sets
+# 03-079: Merging sets, as Symbols
 
 tags_one = {
     'python',
@@ -14,16 +14,18 @@ tags_two = {
     'development'
 }
 
-# 1 - "|" -  Merged tags with pipes |
+# 1 - Union operator "|" -  As union()
 
 merged_tags = tags_one | tags_two
 print(merged_tags)      # {'ruby', 'tutorials', 'coding', 'python', 'development'}
 
 
 
-# 2- "-" -  tags in tags_one but not in tags_two
+# 2- Difference Operator "-" - As difference() 
 
+# Tags present in tags_one but not in tags_two
 exclusive_to_tag_one = tags_one - tags_two
+# Tags present in tags_two but not in tags_one
 exclusive_to_tag_two = tags_two - tags_one
 
 print('\nTags One: ', tags_one)
@@ -33,7 +35,12 @@ print('\nExclusive tags from tags_one:  ', exclusive_to_tag_one)
 print('\nExclusive tags from tags_two:  ', exclusive_to_tag_two)
 
 
-# 3 - "&"" - Matches found in both sets
+
+
+# 3 Intersection operator - "&"" - As intersection()
 
 universal_tags = tags_one & tags_two
 print('\nUniversal Tags:  ', universal_tags)
+
+
+
