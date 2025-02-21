@@ -1,34 +1,35 @@
 # 03-081: Loops using Lists, Dictioanaries, Tuples
 
 
-# With lists
-players_list = ['Altuve', 'Bregman', 'Correa', 'Gattis']
+# Working with Lists
 
-for player in players_list:
+players = ['Altuve', 'Bregman', 'Correa', 'Gattis']
+
+for player in players:
     print(player)
-print('\n\n\n')
-
-# With a Tuple
-
-players_tuple = ('Altuve', 'Bregman', 'Correa', 'Gattis')
-
-for player_tuple in players_tuple:
-    print(player_tuple)
 
 
 
-# With Dictionaries
+# Working with Tuples
 
-players_dict = {
-    '2b' : 'Altuve',
-    '3b' : 'Bregman',
-    'ss' : 'Correa',
-    'dh' : 'Gattis'
+players = ('Altuve', 'Bregman', 'Correa', 'Gattis')
+
+for player in players:
+    print(player)
+
+
+
+# Working with Dictionaries
+
+players = {
+    '2b': 'Altuve',
+    '3b': 'Bregman',
+    'ss': 'Correa',
+    'dh': 'Gattis'
 }
 
-for position, player_dict in players_dict.items():
-    print('\nPosition: ', position)
-    print('Player Name: ', player_dict)
+for position, player in players.items():
+    print(f'Position: {position}, Player: {player}')
 
 
 
