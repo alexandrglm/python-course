@@ -25,6 +25,7 @@ print(merged_tags)      # {'ruby', 'tutorials', 'coding', 'python', 'development
 
 # Tags present in tags_one but not in tags_two
 exclusive_to_tag_one = tags_one - tags_two
+
 # Tags present in tags_two but not in tags_one
 exclusive_to_tag_two = tags_two - tags_one
 
