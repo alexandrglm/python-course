@@ -18,7 +18,42 @@ for legacy_customer in legacy_customers:
  
 print(new_customers)    # ['Tiffany', 'Kristine', 'Alice', 'Bob']
 
+
+# More ways to combine lists
+
+# .extend() - Merging both into one directly
+
+users = ['root', 'user1']
+pwd = ['rootPass', 'user1Pass']
+
+users.extend(pwd)
+print(users)
+
+
+# Using list comprehesion (The following guide will expand this)
+
+users = ['root', 'user1']
+pwd = ['rootPass', 'user1Pass']
+
+users = [user for user in users] + [single_pwd for single_pwd in pwd ]
+print(users)
+
+
+
+
 # Coding Exercise
+"""
+Write a for loop that takes each number from the numbers list, increments it by 1, and adds it to the result list.
+
+def loop_over_list():
+    numbers = [1,2,3,4,5,6]
+    result = []
+    
+    # Write your code here
+    
+    
+    return result
+
 """
 
 """
@@ -49,3 +84,4 @@ def loop_over_list():
 
 
 loop_over_list()
+"""

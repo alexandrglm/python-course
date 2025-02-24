@@ -31,6 +31,13 @@ print(list(num_list))
 print(cubed_nums)       # Gives the same result
 
 
+# .map() + lambda
+
+cubed_nums = list(map( lambda num: num ** 3, list(num_list) ))
+print('\nUsing lambda :\n', cubed_nums)
+
+
+
 # Adding conditionals
 
 even_numbers = []
@@ -39,15 +46,21 @@ for num in num_list:
     if num % 2 == 0:
         even_numbers.append(num)
 
-print(list(num_list))   # [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-print(even_numbers)     # [2, 4, 6, 8, 10]
+print('\nNumber List: ', list(num_list))   # [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+print('\nEven Numbers: ', even_numbers)     # [2, 4, 6, 8, 10]
 
 # In a expression
 
 even_numbers = [num for num in num_list if num % 2 == 0 ]
 
-print(list(num_list))   # [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+print('\nUsing comprehesion: \n', list(num_list))   # [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 print(even_numbers)     # # [2, 4, 6, 8, 10]
+
+
+
+
+
+
 
 
 # Coding Exercise
