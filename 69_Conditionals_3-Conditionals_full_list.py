@@ -8,7 +8,7 @@ List of Comparision operators:
 <>  - INEQUALITY (but deprecated)
 
 >   - GREATER
->   - GREATER OR EQUAL
+>=   - GREATER OR EQUAL
 
 <   - LESS
 <=  - LESS OR EQUAL
