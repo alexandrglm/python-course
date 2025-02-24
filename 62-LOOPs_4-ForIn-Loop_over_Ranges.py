@@ -1,4 +1,4 @@
-# 03-082: Looping into Ranges
+# 03-084: Looping into Ranges
 
 # range()
 # Syntax: range(start, stop, step)
