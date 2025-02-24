@@ -1,4 +1,4 @@
-# 03-080. Control Structures -> Loops
+# 03-081. Control Structures -> Loops
 import random
 
 
@@ -21,4 +21,3 @@ while len(numbers_while) < 10:
     do: numbers_while.append(str(random.randint(0, 1000)))
 
 print(numbers_while)
-
