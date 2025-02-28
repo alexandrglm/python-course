@@ -100,6 +100,7 @@ def sum_two_numbers(num_1, num_2):
 sum_two_numbers(total)
 """
 
+"""
 def a(b,c):
     print(f'{b} {c}')
 
@@ -109,3 +110,20 @@ def e(f):
     print(f'Hey {f}')
 
 e(d) # None !
+"""
+
+def greeting(name, surname):
+    def printing():
+        return f'{name} {surname}'
+    
+    print(f'Hello, {printing()}')
+        
+greeting('Pepito', 'Perez')
+
+def greeting(name):
+    def printing():
+        return f'Hello, {name}'
+    
+    print(f'{printing()}')
+        
+greeting('Jordan')
