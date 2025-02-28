@@ -88,7 +88,7 @@
 # print(list(paletas_colores.values())[1][2]) # cyan
 # print( list(paletas_colores.values())[0])   # black
 
-
+"""
 
 num_1 = 12
 num_2 = 24
@@ -98,3 +98,14 @@ def sum_two_numbers(num_1, num_2):
     return total
     
 sum_two_numbers(total)
+"""
+
+def a(b,c):
+    print(f'{b} {c}')
+
+d = a('Pepito', 'Perez')
+
+def e(f):
+    print(f'Hey {f}')
+
+e(d) # None !
