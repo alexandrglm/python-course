@@ -112,6 +112,7 @@ def e(f):
 e(d) # None !
 """
 
+"""
 def greeting(name, surname):
     def printing():
         return f'{name} {surname}'
@@ -127,3 +128,9 @@ def greeting(name):
     print(f'{printing()}')
         
 greeting('Jordan')
+"""
+
+def greeting(name = 'Guest'):
+ print(f'Hi {name}!')
+greeting()
+greeting('Kristine')
