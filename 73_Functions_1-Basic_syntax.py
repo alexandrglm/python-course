@@ -51,3 +51,15 @@ def counter(max_value):
 
 counter(68)
 
+
+
+# CodingExercise
+
+"""
+Create a function called greeting that prints "hello" when the function is called.
+"""
+
+def greeting():
+    print('hello')
+    
+greeting()
