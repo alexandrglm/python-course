@@ -1,4 +1,4 @@
-# 03-123: Properties and Decorators
+# 03-123: @property decorators
 
 class Invoice:
 
@@ -41,7 +41,7 @@ class Garage:
 
     # add decorator here
     @property
-    def size_getter(self):
+    def size(self):
         return self._size
   
     def open_door(self):
