@@ -8,7 +8,7 @@ teams = {
 
 
 # Adding
-# Syntax:   dictionarie['new key'] = ['new value', 'for the key']
+# Syntax:   dictionary['new key'] = ['new value', 'for the key']
 
 teams['red sox'] = ['Price', 'Betts']
 print(teams)
