@@ -43,3 +43,22 @@ input_type = input('Choose your rounding up method (0.xx / xx) :')
 
 prettified_price = PrettyPrice(price, input_type)
 print(prettified_price.prettify())
+
+
+
+# GUIDED PROPOSAL SOLUTION from guide
+# The more simply things, the best.
+
+def pretty_price(gross_price, extension):
+    
+    base_price = int(gross_price)
+    
+    if isinstance(extension, int):
+        extension = extension * 0.01
+
+    return base_price + extension
+
+print(pretty_price(3.12, 99))
+print(pretty_price(3.12, 0.99))
+print(pretty_price(10, 0.50))
+print(pretty_price(24, 50))
