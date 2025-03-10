@@ -13,7 +13,9 @@
 # ATTEMPT #1
 
 # Even it's not exactly exactly what exercise should be,
-# this attempt tries to joint last guides' learnings
+# this attempt tries to joint last guides' learnings.
+# Also, I missunderstood the exercise prompt, and each
+# price is always rounded up to x.99
 
 import math
 
