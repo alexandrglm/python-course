@@ -1,5 +1,3 @@
-# 03-138_ Flask 2 - SQL-Alchemy
-
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 from flask_marshmallow import Marshmallow
@@ -9,7 +7,7 @@ app = Flask(__name__)
 
 
 basedir = os.path.abspath(os.path.dirname(__file__))
-app.config = ['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + os.path.join(basedir, 'app.sqlite')
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + os.path.join(basedir, 'app.sqlite')
 db = SQLAlchemy(app)
 ma = Marshmallow(app)
 
@@ -31,14 +29,3 @@ class GuideSchema(ma.Schema):
 
 guide_schema = GuideSchema()
 guides_schema = GuideSchema(many=True)
-
-
-                  
-
-
-
-
-
-if __name__ == '__main__':
-    app.run(debug=True)
-
