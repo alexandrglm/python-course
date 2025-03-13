@@ -35,6 +35,34 @@ guide_schema = GuideSchema()
 guides_schema = GuideSchema(many=True)
 
 
+# from app_110
+## DEPRECTAED POST endpoint using Query
+# @app.route('/guide', methods=["POST"])
+# def add_guide():
+#     title = request.json['title']
+#     content = request.json['content']
+#     new_guide = Guide(title, content)
+#     db.session.add(new_guide)
+#     db.session.commit()
+#     guide = Guide.query.get(new_guide.id)
+#     return guide_schema.jsonify(guide)
+#######################
+# from app_110
+## NEW POST endpoint
+@app.route('/guide', methods=["POST"])
+def add_guide():
+
+    db.create_all()
+
+    title = request.json['title']
+    content = request.json['content']
+
+    new_guide = Guide(title=title, content=content)
+
+    db.session.add(new_guide)
+    db.session.commit()
+    
+    return guide_schema.jsonify(new_guide)
 
 if __name__ == '__main__':
     app.run(debug=True)

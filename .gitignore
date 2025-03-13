@@ -1,5 +1,5 @@
 /.fixed_20250301
 **/__pycache__/
-/Pipfile
-/Pipfile.lock
+**/Pipfile
+**/Pipfile.lock
 
